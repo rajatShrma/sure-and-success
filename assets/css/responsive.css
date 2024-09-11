@@ -2,14 +2,14 @@
 
 }/*max-width:1680px*/
 @media screen and (max-width:1440px){
-	.welcome-hero-txt {padding: 268px 0px 122px;}
+	.main-content-txt {padding: 268px 0px 122px;}
 	.model-search-content {position: relative;bottom: 0;top: 100px;}
 }/*max-width:1440px*/
 
 @media screen and (max-width:1199px){
-	.welcome-hero-txt h2{font-size: 40px;}
+	.main-content-txt h2{font-size: 40px;}
 	.welcome-btn.model-search-btn {margin-left: 28px;}
-	.featured-cars-img {padding: 0 10px;}
+	.blog-img {padding: 0 10px;}
 }/*max-width:1199px*/
 
 @media screen and (max-width:1024px){
@@ -29,7 +29,7 @@
 }/*max-width:992px*/
 
 @media screen and (max-width:991px){
-	.welcome-hero-txt h2 {line-height: 1.6;}
+	.main-content-txt h2 {line-height: 1.6;}
 
 	.model-search-content .col-sm-12 {padding: 0 40px;}
 	.single-model-search:last-child {margin-bottom: 30px;}
@@ -45,7 +45,7 @@
 
 @media screen and (max-width:767px){
 	.single-service-item {max-width: 350px;margin: 30px auto;}
-	.single-featured-cars {max-width: 350px;margin: 0 auto;}
+	.single-blog {max-width: 350px;margin: 0 auto;}
 	.footer-social {text-align: left;}
 	.footer-social a i {margin-right: 16px;margin-left: 0;}
 	.hm-foot-email {max-width: 300px;}
@@ -68,12 +68,12 @@
 }/*max-width:540px*/
 
 @media screen and (max-width: 480px){
-	.welcome-hero h2 {font-size: 30px;}
+	.main-content h2 {font-size: 30px;}
 	.single-model-search h2 {font-size:16px;}
 }/*max-width:480px*/
 
 @media screen and (max-width: 440px){
-	.welcome-hero-txt h2,{font-size: 24px;line-height: 1.5;}
+	.main-content-txt h2,{font-size: 24px;line-height: 1.5;}
 	
 }/*max-width:400px*/
 

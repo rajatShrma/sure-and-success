@@ -6,7 +6,6 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
         <!--font-family-->
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
@@ -17,7 +16,7 @@
         <title>Sure & Success</title>
 
         <!-- For favicon png -->
-		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/logo.jpeg"/>
        
         <!--font-awesome.min.css-->
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -46,24 +45,10 @@
         
         <!--responsive.css-->
         <link rel="stylesheet" href="assets/css/responsive.css">
-        
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		
-        <!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
     </head>
 	
 	<body>
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-	
-		<!--welcome-hero start -->
-		<section id="home" class="welcome-hero">
+		<section id="home" class="main-content">
 
 			<!-- top-area Start -->
 			<div class="top-area">
@@ -80,7 +65,7 @@
 				                </button>
 				                <a class="navbar-brand" href="index.html">Sure & Success<span></span></a>
 
-				            </div><!--/.navbar-header-->
+				            </div>
 				            <!-- End Header Navigation -->
 
 				            <!-- Collect the nav links, forms, and other content for toggling -->
@@ -88,32 +73,27 @@
 				                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
 				                    <li class=" scroll active"><a href="#home">home</a></li>
 				                    <li class="scroll"><a href="#service">Offerings</a></li>
-				                    <li class="scroll"><a href="#featured-cars">Blog</a></li>
+				                    <li class="scroll"><a href="#blog">Blog</a></li>
 				                    <li class="scroll"><a href="#clients-say">About</a></li>
 				                    <li class="scroll"><a href="#contact">contact</a></li>
-				                </ul><!--/.nav -->
-				            </div><!-- /.navbar-collapse -->
-				        </div><!--/.container-->
-				    </nav><!--/nav-->
-				    <!-- End Navigation -->
-				</div><!--/.header-area-->
-			    <div class="clearfix"></div>
-
-			</div><!-- /.top-area-->
-			<!-- top-area End -->
-
-			<div class="container">
-				<div class="welcome-hero-txt">
-					<h2>Unlock Your Future Abroad</h2>
-					<p>
-						Guiding students towards a successful future through expert consultation and personalized support.
-					</p>
-					<button class="welcome-btn" onclick="window.location.href='#'">contact us</button>
+				                </ul>
+				            </div>
+				        </div>
+				    </nav>
 				</div>
+			    <div class="clearfix"></div>
 			</div>
 
-		</section><!--/.welcome-hero-->
-		<!--welcome-hero end -->
+			<div class="container">
+				<div class="main-content-txt">
+					<h2>Your Gateway to Global Education</h2>
+					<p>
+						Navigate your path to studying abroad with expert guidance and comprehensive support.
+					</p>
+					<button class="welcome-btn" onclick="window.location.href='#contact'">contact us</button>
+				</div>
+			</div>
+		</section>
 
 		<!--service start -->
 		<section id="service" class="service">
@@ -126,8 +106,8 @@
 					<div class="row">
 						<div class="col-md-4 col-sm-6">
 							<div class="single-service-item">
-								<div class="single-service-icon">
-									<img src="./assets/images/education/book-shelf.jpeg" alt="">
+								<div>
+									<img class="offering-image" src="./assets/images/education/consultant.jpg" alt="">
 								</div>
 								<h2><a href="#">Consultation Services</a></h2>
 								<p>
@@ -137,8 +117,8 @@
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="single-service-item">
-								<div class="single-service-icon">
-									<img src="./assets/images/education/think.jpeg" alt="">
+								<div>
+									<img class="offering-image" src="./assets/images/education/student.jpeg" alt="">
 								</div>
 								<h2><a href="#">Visa Assistance</a></h2>
 								<p>
@@ -148,8 +128,8 @@
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="single-service-item">
-								<div class="single-service-icon">
-									<img src="./assets/images/education/book-shelf.jpeg" alt="">
+								<div>
+									<img class="offering-image" src="./assets/images/education/student-study.jpg" alt="">
 								</div>
 								<h2><a href="#">Test Preparation</a></h2>
 								<p>
@@ -159,107 +139,17 @@
 						</div>
 					</div>
 				</div>
-			</div><!--/.container-->
+			</div>
+		</section>
 
-		</section><!--/.service-->
-		<!--service end-->
-
-		<!--new-cars start -->
-		<section id="new-cars" class="new-cars">
-			<div class="container">
-				<div class="new-cars-content">
-					<div class="owl-carousel owl-theme" id="new-cars-carousel">
-						<div class="new-cars-item">
-							<div class="single-new-cars-item">
-								<div class="row">
-									<div class="col-md-7 col-sm-12">
-										<div class="new-cars-img">
-											<img src="assets/images/new-cars-model/ncm1.png" alt="img"/>
-										</div><!--/.new-cars-img-->
-									</div>
-									<div class="col-md-5 col-sm-12">
-										<div class="new-cars-txt">
-											<h2><a href="#">Empowering Student Dreams Worldwide</a></h2>
-											<p class="new-cars-para2">
-												Sure and Success, located in Old Baneshwor, Kathmandu Nepal, excels in shaping student futures through the best consultation for foreign education.
-											</p>
-											<p class="new-cars-para2">
-												Founded by passionate educators aiming to make international education accessible to all aspiring students.
-											</p>
-											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
-												Read More
-											</button>
-										</div><!--/.new-cars-txt-->	
-									</div><!--/.col-->
-								</div><!--/.row-->
-							</div><!--/.single-new-cars-item-->
-						</div><!--/.new-cars-item-->
-						<div class="new-cars-item">
-							<div class="single-new-cars-item">
-								<div class="row">
-									<div class="col-md-7 col-sm-12">
-										<div class="new-cars-img">
-											<img src="assets/images/new-cars-model/ncm2.png" alt="img"/>
-										</div><!--/.new-cars-img-->
-									</div>
-									<div class="col-md-5 col-sm-12">
-										<div class="new-cars-txt">
-											<h2><a href="#">BMW series-3 wagon</a></h2>
-											<p>
-												Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-											</p>
-											<p class="new-cars-para2">
-												Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. 
-											</p>
-											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
-												view details
-											</button>
-										</div><!--/.new-cars-txt-->	
-									</div><!--/.col-->
-								</div><!--/.row-->	
-							</div><!--/.single-new-cars-item-->
-						</div><!--/.new-cars-item-->
-						<div class="new-cars-item">
-							<div class="single-new-cars-item">
-								<div class="row">
-									<div class="col-md-7 col-sm-12">
-										<div class="new-cars-img">
-											<img src="assets/images/new-cars-model/ncm3.png" alt="img"/>
-										</div><!--/.new-cars-img-->
-									</div>
-									<div class="col-md-5 col-sm-12">
-										<div class="new-cars-txt">
-											<h2><a href="#">ferrari 488 superfast</a></h2>
-											<p>
-												Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-											</p>
-											<p class="new-cars-para2">
-												Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. 
-											</p>
-											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
-												view details
-											</button>
-										</div><!--/.new-cars-txt-->	
-									</div><!--/.col-->
-								</div><!--/.row-->
-							</div><!--/.single-new-cars-item-->
-						</div><!--/.new-cars-item-->
-					</div><!--/#new-cars-carousel-->
-				</div><!--/.new-cars-content-->
-			</div><!--/.container-->
-
-		</section><!--/.new-cars-->
-		<!--new-cars end -->
-
-		<!--featured-cars start -->
-		<section id="featured-cars" class="featured-cars">
+		<section id="blog" class="blog">
 			<div class="container">
 				<div class="section-header">
 					<p>Explore how our consultation services have led students to achieve their academic dreams globally.</p>
 					<h2>Success Stories in the Making</h2>
-				</div><!--/.section-header-->
+				</div>
 				<div class="story-container">
-					<img class="success-story-img" src="./assets/images/education/think.jpeg" alt="">
+					<img class="success-story-img" src="./assets/images/education/global-education.png" alt="">
 					<div class="story-content">
 						<h2>
 							Global Edu Solutions
@@ -281,17 +171,13 @@
 						</p>
 					</div>
 				</div>
-			</div><!--/.container-->
-
-		</section><!--/.featured-cars-->
-		<!--featured-cars end -->
-
-		<!-- clients-say strat -->
+			</div>
+		</section>
 		<section id="clients-say"  class="clients-say">
 			<div class="container">
 				<div class="section-header">
 					<h2>what our clients say</h2>
-				</div><!--/.section-header-->
+				</div>
 				<div class="row">
 					<div class="owl-carousel testimonial-carousel">
 						<div class="col-sm-3 col-xs-12">
@@ -300,193 +186,115 @@
 									<div class="testimonial-info">
 										<div class="testimonial-img">
 											<img src="assets/images/clients/c1.png" alt="image of clients person" />
-										</div><!--/.testimonial-img-->
-									</div><!--/.testimonial-info-->
+										</div>
+									</div>
 									<div class="testimonial-comment">
 										<svg  style="height: 30px;" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M96 224C84.72 224 74.05 226.3 64 229.9V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32S145.7 96 128 96C57.42 96 0 153.4 0 224v96c0 53.02 42.98 96 96 96s96-42.98 96-96S149 224 96 224zM352 224c-11.28 0-21.95 2.305-32 5.879V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32s-14.33-32-32-32c-70.58 0-128 57.42-128 128v96c0 53.02 42.98 96 96 96s96-42.98 96-96S405 224 352 224z"></path></svg>
 										<h4> Professional and Reliable</h4>
 										<p>
 											Sure and Success is the most reliable partner for anyone seeking guidance on studying abroad. Their professionalism and expertise are unmatched.
 										</p>
-									</div><!--/.testimonial-comment-->
+									</div>
 									<div class="testimonial-person">
 										<h2><a href="#">John Doe</a></h2>
-									</div><!--/.testimonial-person-->
-								</div><!--/.testimonial-description-->
-							</div><!--/.single-testimonial-box-->
-						</div><!--/.col-->
+									</div>
+								</div>
+							</div>
+						</div>
 						<div class="col-sm-3 col-xs-12">
 							<div class="single-testimonial-box">
 								<div class="testimonial-description">
 									<div class="testimonial-info">
 										<div class="testimonial-img">
 											<img src="assets/images/clients/c2.png" alt="image of clients person" />
-										</div><!--/.testimonial-img-->
-									</div><!--/.testimonial-info-->
+										</div>
+									</div>
 									<div class="testimonial-comment">
 										<svg  style="height: 30px;" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M96 224C84.72 224 74.05 226.3 64 229.9V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32S145.7 96 128 96C57.42 96 0 153.4 0 224v96c0 53.02 42.98 96 96 96s96-42.98 96-96S149 224 96 224zM352 224c-11.28 0-21.95 2.305-32 5.879V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32s-14.33-32-32-32c-70.58 0-128 57.42-128 128v96c0 53.02 42.98 96 96 96s96-42.98 96-96S405 224 352 224z"></path></svg>
 										<h4>Exceptional Services</h4> 
 										<p>										
 											I highly recommend Sure and Success for their exceptional consultation services. They truly go above and beyond to ensure student success.
 										</p>
-									</div><!--/.testimonial-comment-->
+									</div>
 									<div class="testimonial-person">
 										<h2><a href="#">Adam Smith</a></h2>
-									</div><!--/.testimonial-person-->
-								</div><!--/.testimonial-description-->
-							</div><!--/.single-testimonial-box-->
-						</div><!--/.col-->
+									</div>
+								</div>
+							</div>
+						</div>
 						<div class="col-sm-3 col-xs-12">
 							<div class="single-testimonial-box">
 								<div class="testimonial-description">
 									<div class="testimonial-info">
 										<div class="testimonial-img">
 											<img src="assets/images/clients/c3.png" alt="image of clients person" />
-										</div><!--/.testimonial-img-->
-									</div><!--/.testimonial-info-->
+										</div>
+									</div>
 									<div class="testimonial-comment">
 										<svg  style="height: 30px;" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M96 224C84.72 224 74.05 226.3 64 229.9V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32S145.7 96 128 96C57.42 96 0 153.4 0 224v96c0 53.02 42.98 96 96 96s96-42.98 96-96S149 224 96 224zM352 224c-11.28 0-21.95 2.305-32 5.879V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32s-14.33-32-32-32c-70.58 0-128 57.42-128 128v96c0 53.02 42.98 96 96 96s96-42.98 96-96S405 224 352 224z"></path></svg>
 										<h4>Life-Changing Experience</h4>
 										<p>Sure and Success transformed my dream of studying abroad into reality. Their guidance and support made the entire process seamless and stress-free.</p>
-									</div><!--/.testimonial-comment-->
+									</div>
 									<div class="testimonial-person">
 										<h2><a href="#">David Miller</a></h2>
-									</div><!--/.testimonial-person-->
-								</div><!--/.testimonial-description-->
-							</div><!--/.single-testimonial-box-->
-						</div><!--/.col-->
-					</div><!--/.testimonial-carousel-->
-				</div><!--/.row-->
-			</div><!--/.container-->
-
-		</section><!--/.clients-say-->	
-		<!-- clients-say end -->
-
-		<!--brand strat -->
-		<!-- <section id="brand"  class="brand">
-			<div class="container">
-				<div class="brand-area">
-					<div class="owl-carousel owl-theme brand-item">
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br1.png" alt="brand-image" />
-							</a>
-						</div>
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br2.png" alt="brand-image" />
-							</a>
-						</div>
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br3.png" alt="brand-image" />
-							</a>
-						</div>
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br4.png" alt="brand-image" />
-							</a>
-						</div>
-
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br5.png" alt="brand-image" />
-							</a>
-						</div>
-
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br6.png" alt="brand-image" />
-							</a>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-
 			</div>
 
-		</section>	 -->
-		<!--brand end -->
-
-		<!--blog start -->
-		<section id="blog" class="blog"></section><!--/.blog-->
-		<!--blog end -->
-
+		</section>
 		<!--contact start-->
 		<footer id="contact"  class="contact">
 			<div class="container">
 				<div class="footer-top">
 					<div class="row">
 						<div class="col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-								<div class="footer-logo">
-									<a href="index.html">Sure and Success Global Education Consultancy</a>
+							<h3 class="form-label">Get in Touch</h3>
+							<p>Have questions? Fill out the form, and we'll get back to you as soon as possible.</p>
+							<form id="contactForm">
+								<div class="mb-3">
+									<label for="name" class="form-label">Name</label>
+									<input type="text" class="form-control" id="name" required>
 								</div>
-								<p>
-									Purano Baneshower , Kathmandu, Nepal
-								</p>
-								<div class="footer-contact">
-									<p>sure.globaleducation@gmail.com</p>
-									<p>+977-01-5920422</p>
+								<div class="mb-3">
+									<label for="email" class="form-label">Email</label>
+									<input type="email" class="form-control" id="email" required>
 								</div>
-							</div>
+								<div class="mb-3">
+									<label for="message" class="form-label">Message</label>
+									<textarea class="form-control" id="message" rows="4" required></textarea>
+								</div>
+								<button type="submit" class="mt-3 btn btn-primary">Send Message</button>
+							</form>
 						</div>
-						 <div class="col-md-2 col-sm-6">
+						<div class="col-md-6 col-sm-6">
 							<div class="single-footer-widget">
+								<div class="single-footer-widget">
+									<div class="footer-logo">
+										<a href="index.html">Sure and Success Global Education Consultancy</a>
+									</div>
+									<p>
+										Purano Baneshower , Kathmandu, Nepal
+									</p>
+									<div class="footer-contact">
+										<p>sure.globaleducation@gmail.com</p>
+										<p>+977-01-5920422</p>
+									</div>
+								</div>
 								<h2>Follow us:</h2>	
 								<div class="row" >
 									<div class="col-md-2">
-										<a href="https://www.facebook.com/profile.php?id=61555989973131"><i style="color: white;" class="fa fa-facebook"></i></a>	
+										<a href="https://www.facebook.com/profile.php?id=61555989973131" target="_blank"><i style="color: white;" class="fa fa-facebook"></i></a>	
 									</div>						
 									<div class="col-md-2">
-										<a href="https://www.instagram.com/sure.globaleducation/"><i style="color: white;" class="fa fa-instagram"></i></a>
+										<a href="https://www.instagram.com/sure.globaleducation/" target="_blank"><i style="color: white;" class="fa fa-instagram"></i></a>
 									</div>						
 								</div>	
 							</div>
-						</div>
-						<!--<div class="col-md-3 col-xs-12">
-							<div class="single-footer-widget">
-								<h2>top brands</h2>
-								<div class="row">
-									<div class="col-md-7 col-xs-6">
-										<ul>
-											<li><a href="#">BMW</a></li>
-											<li><a href="#">lamborghini</a></li>
-											<li><a href="#">camaro</a></li>
-											<li><a href="#">audi</a></li>
-											<li><a href="#">infiniti</a></li>
-											<li><a href="#">nissan</a></li>
-										</ul>
-									</div>
-									<div class="col-md-5 col-xs-6">
-										<ul>
-											<li><a href="#">ferrari</a></li>
-											<li><a href="#">porsche</a></li>
-											<li><a href="#">land rover</a></li>
-											<li><a href="#">aston martin</a></li>
-											<li><a href="#">mersedes</a></li>
-											<li><a href="#">opel</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-offset-1 col-md-3 col-sm-6">
-							<div class="single-footer-widget">
-								<h2>news letter</h2>
-								<div class="footer-newsletter">
-									<p>
-										Subscribe to get latest news  update and informations
-									</p>
-								</div>
-								<div class="hm-foot-email">
-									<div class="foot-email-box">
-										<input type="text" class="form-control" placeholder="Add Email">
-									</div><!--/.foot-email-box
-									<div class="foot-email-subscribe">
-										<span><i class="fa fa-arrow-right"></i></span>
-									</div><!--/.foot-email-icon
-								</div><!--/.hm-foot-email
-							</div> -->
+						</div>						
 						</div>
 					</div>
 				</div>
@@ -505,17 +313,17 @@
 						<div class="col-sm-4">
 						</div>
 					</div>
-				</div><!--/.footer-copyright-->
-			</div><!--/.container-->
+				</div>
+			</div>
 
 			<div id="scroll-Top">
 				<div class="return-to-top">
 					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
 				</div>
 				
-			</div><!--/.scroll-Top-->
+			</div>
 			
-        </footer><!--/.contact-->
+        </footer>
 		<!--contact end-->
 
 
@@ -540,6 +348,23 @@
 
         <!--Custom JS-->
         <script src="assets/js/custom.js"></script>
+		<script>
+			document.getElementById('contactForm').addEventListener('submit', function(e) {
+				e.preventDefault();
+				const name = document.getElementById('name').value;
+				const email = document.getElementById('email').value;
+				const message = document.getElementById('message').value;
+				
+				// Here you would typically send this data to your server
+				console.log('Form submitted:', { name, email, message });
+				
+				// Clear the form
+				this.reset();
+				
+				// Show a success message (you can replace this with a more user-friendly notification)
+				alert('Thank you for your message. We will get back to you soon!');
+			});
+		</script>
         
     </body>
 	
